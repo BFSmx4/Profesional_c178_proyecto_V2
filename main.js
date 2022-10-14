@@ -28,7 +28,7 @@ var marker1 = new mapboxgl.Marker({
 	.addTo(map);
 
 var img2 = document.querySelector("#gateway")
-// Crea un marcador de la Puerta de India en Mumbai y agrégalo al mapa.
+// Crea un marcador de la Entrada de la India en Mumbai y agrégalo al mapa.
 var marker2 = new mapboxgl.Marker({
 	element: img2
 })
@@ -46,7 +46,7 @@ var marker3 = new mapboxgl.Marker({
 
 var img4 = document.querySelector("#lotus")
 
-// Crea un marcador del Templo del Loto en Delhi y agrégalo al mapa.
+// Crea un marcador en el Templo del Loto en Delhi y agrégalo al mapa.
 var marker4 = new mapboxgl.Marker({
 	element: img4
 })
